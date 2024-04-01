@@ -39,6 +39,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		842584FC2BBB2C7D00CB008E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84FC067E2BB7A6B700299EE2 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		842584FD2BBB2C8A00CB008E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84FC06852BB7A6B900299EE2 /* LaunchScreen.storyboard */,
+				84FC06902BB7AAB500299EE2 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		842585002BBB2CAA00CB008E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		84FC066E2BB7A6B700299EE2 = {
 			isa = PBXGroup;
 			children = (
@@ -61,11 +85,11 @@
 				84FC068E2BB7A6C200299EE2 /* Inceptionv3.mlmodel */,
 				84FC067A2BB7A6B700299EE2 /* AppDelegate.swift */,
 				84FC067C2BB7A6B700299EE2 /* SceneDelegate.swift */,
-				84FC067E2BB7A6B700299EE2 /* ViewController.swift */,
-				84FC06902BB7AAB500299EE2 /* Main.storyboard */,
+				842584FC2BBB2C7D00CB008E /* Controller */,
+				842584FD2BBB2C8A00CB008E /* View */,
 				84FC06832BB7A6B900299EE2 /* Assets.xcassets */,
-				84FC06852BB7A6B900299EE2 /* LaunchScreen.storyboard */,
 				842584FA2BBB109D00CB008E /* Info.plist */,
+				842585002BBB2CAA00CB008E /* Model */,
 			);
 			path = FoodFinder;
 			sourceTree = "<group>";
